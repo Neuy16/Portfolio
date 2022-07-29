@@ -74,17 +74,20 @@ body {
     font-weight: 700;
     font-size: 19px;
 }
-.me {
-    border-style: outset;
-    border-width: 10px;
-    border-color: #9C29B3;
-}
+
 /* About me */
 section h2 {
     display: flex;
     justify-content: center;
 }
 
+.me {
+    border-style: outset;
+    border-width: 10px;
+    border-color: #9C29B3;
+}
+
+/* Projects */
 #projects {
     display: grid;
     gap: 50px;
@@ -112,6 +115,11 @@ section h2 {
     margin-top: 10px;
 }
 
+#projects div img {
+    border-radius: 10px;
+}
+
+/* Contact Information */
 .contactImg {
     width: 30%;
 }
@@ -130,9 +138,7 @@ label {
     font-size: 30px;
 }
 
-#projects div img {
-    border-radius: 10px;
-}
+
 /*  Footer */
 footer {
     background: linear-gradient(to bottom, #009999 0%, #cc33ff 100%);
