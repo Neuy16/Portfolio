@@ -1,3 +1,24 @@
+/* Overall CSS */
+h1,
+h2 {
+    color: white;
+    text-shadow: 4px 4px #9506ce;
+    font-size: xxx-large;
+}
+
+h3 {
+    color: white;
+    font-weight: 500;
+    font-family: fantasy;
+    font-size: xx-large;
+}
+
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 /* Header */
 header {
     padding: 20px;
@@ -33,6 +54,7 @@ header a {
     color: white;
 }
 
+/* Start of main Content */
 p {
     background-color: #009999;
     border-style: outset;
@@ -52,45 +74,15 @@ body {
     font-weight: 700;
     font-size: 19px;
 }
-
-.mr10 {
-    margin-right: 100px;
-}
-
-h1,
-h2 {
-    color: white;
-    text-shadow: 4px 4px #9506ce;
-    font-size: xxx-large;
-}
-
-h3 {
-    color: white;
-    font-weight: 500;
-    font-family: fantasy;
-    font-size: xx-large;
-}
-
 .me {
     border-style: outset;
     border-width: 10px;
     border-color: #9C29B3;
 }
-
-img {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-}
-
+/* About me */
 section h2 {
     display: flex;
     justify-content: center;
-}
-
-footer {
-    background: linear-gradient(to bottom, #009999 0%, #cc33ff 100%);
-    padding: 17px;
 }
 
 #projects {
@@ -140,6 +132,11 @@ label {
 
 #projects div img {
     border-radius: 10px;
+}
+/*  Footer */
+footer {
+    background: linear-gradient(to bottom, #009999 0%, #cc33ff 100%);
+    padding: 17px;
 }
 
 footer span {
